@@ -1,0 +1,13 @@
+{
+  "description": "Converts a selected UTC time to local time",
+  "icons": {
+    "32": "icon_32.png"
+  },
+  "name": "UTC to Local",
+  "permissions": ["http://*/*", "https://*/*", "tabs", "contextMenus"],
+  "background": {
+    "scripts": ["background_script.js"]
+  },
+  "version": "0.0.1",
+  "manifest_version": 2
+}
