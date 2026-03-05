@@ -4,10 +4,11 @@
     "32": "icon_32.png"
   },
   "name": "UTC to Local",
-  "permissions": ["http://*/*", "https://*/*", "tabs", "contextMenus"],
+  "permissions": ["tabs", "contextMenus", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
   "background": {
-    "scripts": ["background_script.js"]
+    "service_worker": "background.js"
   },
-  "version": "0.0.1",
-  "manifest_version": 2
+  "version": "0.1.0",
+  "manifest_version": 3
 }
